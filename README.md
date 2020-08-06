@@ -28,4 +28,6 @@ Instalar dependencias
 
 ## Flask
 Iniciar flask
-> `flask run file.py`
+> `export FLASK_ENV=development`
+
+> `flask run`
