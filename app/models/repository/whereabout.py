@@ -1,8 +1,6 @@
 from sqlalchemy import Column, Integer, String, Unicode
 from sqlalchemy.orm import relationship
-from sqlalchemy.ext.declarative import declarative_base
-
-Base = declarative_base()
+from ..provider.engine import Base
 
 
 class Whereabout(Base):
